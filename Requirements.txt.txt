@@ -1,0 +1,57 @@
+# Web Framework & Server
+streamlit>=1.28.0
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# Jira Integration
+jira>=3.5.0
+atlassian-python-api>=3.0.0
+
+# AI & NLP Processing
+openai>=1.0.0
+langchain>=0.0.350
+transformers>=4.35.0
+torch>=2.0.0
+sentence-transformers>=2.2.0
+nltk>=3.8.0
+spacy>=3.7.0
+
+# Email Service
+python-dotenv>=1.0.0
+email-validator>=2.0.0
+
+# Data Processing & Utilities
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+python-dateutil>=2.8.0
+
+# JSON & Configuration
+pyyaml>=6.0.0
+json5>=0.9.0
+
+# Authentication & Security
+python-jose>=3.3.0
+cryptography>=41.0.0
+oauthlib>=3.2.0
+
+# Async Support
+asyncio>=3.9.0
+aiohttp>=3.8.0
+
+# Testing & Development
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Monitoring & Logging
+loguru>=0.7.0
+psutil>=5.9.0
+
+# Additional Utilities
+click>=8.1.0
+typing-extensions>=4.7.0
+tqdm>=4.65.0
+
+Note: comprehensive version includes all possible dependencies for the features in file structure

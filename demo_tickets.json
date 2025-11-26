@@ -1,0 +1,100 @@
+{
+  "tickets": [
+    {
+      "key": "BUG-1001",
+      "summary": "Mobile app crashes on login page",
+      "description": "App crashes immediately when users try to login on iOS devices",
+      "issue_type": "Bug",
+      "status": "In Progress",
+      "priority": "High",
+      "reporter": "qa-team@company.com",
+      "assignee": "mobile-dev@company.com",
+      "created": "2024-01-15T10:00:00",
+      "updated": "2024-01-17T14:30:00",
+      "comments": [
+        {
+          "author": "QA Team",
+          "timestamp": "2024-01-15T10:00:00",
+          "body": "Issue reproduced on iOS 15 and 16 devices"
+        },
+        {
+          "author": "Mobile Developer",
+          "timestamp": "2024-01-17T14:30:00",
+          "body": "Identified the root cause - memory leak in authentication module. Working on fix."
+        }
+      ]
+    },
+    {
+      "key": "FEAT-1002",
+      "summary": "Add dark mode theme",
+      "description": "Users requesting dark mode for better nighttime usage",
+      "issue_type": "Story",
+      "status": "Backlog",
+      "priority": "Medium",
+      "reporter": "product@company.com",
+      "assignee": "ui-team@company.com",
+      "created": "2024-01-10T09:00:00",
+      "updated": "2024-01-16T11:20:00",
+      "comments": [
+        {
+          "author": "Product Manager",
+          "timestamp": "2024-01-10T09:00:00",
+          "body": "High user demand based on survey results"
+        },
+        {
+          "author": "UI/UX Team",
+          "timestamp": "2024-01-16T11:20:00",
+          "body": "Design mockups completed. Ready for development planning."
+        }
+      ]
+    },
+    {
+      "key": "TASK-1003",
+      "summary": "Update API documentation",
+      "description": "Document new authentication endpoints and rate limits",
+      "issue_type": "Task",
+      "status": "Done",
+      "priority": "Low",
+      "reporter": "tech-lead@company.com",
+      "assignee": "documentation@company.com",
+      "created": "2024-01-05T14:00:00",
+      "updated": "2024-01-12T16:45:00",
+      "comments": [
+        {
+          "author": "Tech Lead",
+          "timestamp": "2024-01-05T14:00:00",
+          "body": "Please document all new endpoints added in v2.0"
+        },
+        {
+          "author": "Documentation Team",
+          "timestamp": "2024-01-12T16:45:00",
+          "body": "Documentation completed and published to developer portal"
+        }
+      ]
+    },
+    {
+      "key": "BUG-1004",
+      "summary": "Database connection timeout",
+      "description": "Application experiences connection timeouts during peak hours",
+      "issue_type": "Bug",
+      "status": "In Review",
+      "priority": "High",
+      "reporter": "ops-team@company.com",
+      "assignee": "backend-dev@company.com",
+      "created": "2024-01-14T08:30:00",
+      "updated": "2024-01-17T09:15:00",
+      "comments": [
+        {
+          "author": "Operations",
+          "timestamp": "2024-01-14T08:30:00",
+          "body": "Seeing 10-15% timeout rate during 2-4 PM"
+        },
+        {
+          "author": "Backend Developer",
+          "timestamp": "2024-01-17T09:15:00",
+          "body": "Implemented connection pooling. Monitoring performance."
+        }
+      ]
+    }
+  ]
+}
